@@ -11,7 +11,7 @@ Description:
 
 - Input: 
     - zipped data tables containing different signals product of the decomposition of GNSS time series (GrAtSiD, description below)
-    - id_only.txt (list of station names), ve_EU.txt and vn_EU.txt (?) in a folder declared in variables all_sta_id, fve_eu and vn_eu respectively.  
+    - id_only.txt (list of station names), ve_EU.txt and vn_EU.txt () in a folder declared in variables all_sta_id, fve_eu and vn_eu respectively.  
 - Output: 
     - text files in an specific format (see surfacevel2strain input format, Tape et al., 2009) containing geographic coordinates, velocities and errors for the 3 components (east, north, up), initial and final dates and station name.
 
