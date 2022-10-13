@@ -1,4 +1,6 @@
-# time_dependent_strainrate
+time_dependent_strainrate
+
+------------------------------------------------------------------------------------------------------------
 
 02a_vel_per_period
 
@@ -20,6 +22,8 @@ Description input files:
 - Signals produced by the Greedy Automatic Signal Decomposition (GrAtSiD, Bedford and Bevis, 2018), an algorithm to fit GNSS time series using a multitransient approach.
 - The zipped tables contain the raw data (in this case time series recording one position per day during 10 years), decomposed signals (artifitial and earthquake steps, nth order polynomial, seasonal, transients, residuals and tectonic velocity among others) and model uncertainty.
 
+------------------------------------------------------------------------------------------------------------
+
 03_runmatlab_surfacevel2strain_multiplevelfiles
 
 Use: 
@@ -33,6 +37,8 @@ Description:
 - Input: velocity files stored in "vel_files" folder 
 - Output: creates folders "test_datei_datef" containing surfacevel2strain output dat files + velocity file for that particular period. 
 
+------------------------------------------------------------------------------------------------------------
+
 04_plot_strainrate
 
 Use: 
@@ -43,8 +49,10 @@ Description:
 - Output: strain rate "png files" stored in the folder "videostrainrate"
 
 Description bash script plot_secondinv_multipleTapefolder.sh:
-- 
-- 
+ 
+ 
+
+------------------------------------------------------------------------------------------------------------
 
 05_plot_velfield
 
@@ -56,8 +64,10 @@ Description:
 - Output: velocity field "png files" stored in the folder "videovelfield"
 
 Description bash script plot_obsvel_multipleTapefolder.sh:
-- 
-- 
+ 
+ 
+
+------------------------------------------------------------------------------------------------------------
 
 06_plot_multiscalevelfield
 
@@ -69,5 +79,5 @@ Description:
 - Output: velocity field "png files" stored in the folder "videovelfield_obsmodel"
 
 Description bash script plot_velfield_scales_q3-8_vectors.sh:
-- 
-- 
+ 
+ 
